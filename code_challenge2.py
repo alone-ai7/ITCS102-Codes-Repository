@@ -9,7 +9,7 @@ g = 10
 h = 5
 i = 1
 
-Mon_dep = 9143 #should be changeable
+Mon_dep = int(input("Enter your deposit money ---> ")) #should be changeable
 
 #output sentence & its value
 print("The deposit money is --->", Mon_dep)
