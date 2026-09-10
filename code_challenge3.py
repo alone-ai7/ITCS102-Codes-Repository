@@ -18,7 +18,7 @@ base_cost = (weight * 2.50) + (distance * 0.15)
 f_weight = 2.0
 f_distance = 100
 
-#all conditions must be met in order to be free
+#all conditions must be met in order to get the free shipping
 
 if weight <= f_weight and distance <= f_distance and is_Express == False and is_International == False:
 	print("The base cost is", base_cost, "The package qualifies as light, local, and standard, so the shipping is free!")
